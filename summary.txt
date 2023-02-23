@@ -1,0 +1,16 @@
+1) I decided to use Python as it is the main language I'm using in both of the CS classes I am taking right now at UW Madison so it allowed me to continue honing my skills.
+In additon, I decided to use lists to store the csv information as it seemed to be the most efficient way of doing so in terms of iterating through the data. 
+I then decided to switch to dictionary to print out the payer's points as dictionary's don't allow duplicates which allowed me to get rid of all the 0 point payers that had
+other instances in the list that had more points.
+
+2) A disadvantage of my solution is to my solution is the number of for loops needed to properly iterate through all the data. This includes when there is a negative value 
+and the entire list (in worst case) must be iterated through in order to deal with this issue. One advantage of my solution is that I do not have to deal with duplicates
+in the payer list until the very end where it is handled efficiently. 
+
+3) My favorite school project thus far was my last group project in CS400 during the spring semester of my sophomore year (2022). The project consisted of implementing 
+Dijkstra's Algorithm in an app of my group's choosing. My group decided to do a very simple version of Google Maps where we read in a csv file that contained 
+a list of cities and the distances between it and other cities connected. The user was able to input their starting city and the desired destination city and the program 
+would output the list of cities they would have to travel through in the correct order. What made this challenging was that the amount of work that was needed for the project
+was designed for 4 group members but one of our groupmates dropped out of the class so we were left with 3 people doing the work of 4. This did not phase us as we decided
+that we all had to do a little extra work and helped out each other when one of us was falling behind. Ultimately, it helped me to better understand the process of building
+a program as a team rather than putting all the work on a single person shoulders.
